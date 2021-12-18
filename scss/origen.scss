@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+$fuenteS: 60px;
+*{
+    margin: 0%;
+    padding: 0%;
+}
+main{
+    margin-top: 85px;
+    font-family: 'Righteous', cursive;
+}
+h1{
+    color:coral;
+}
+p{
+    font-size: $fuenteS/3;
+}
+footer{
+    div{
+        div{font-size: $fuenteS /5;}
+    }
+}
+.menu{//menu nav---------------------------------------------------------------------------------
+    background-color: rgb(236, 231, 173);
+        .navbar-toggler-icon {
+        background-image:url(../img/menu.png);
+    }
+    
+}
+.menu__li{
+    font-size: $fuenteS /3;
+    font-weight: bolder;
+    color:#FDAC53;
+}
+.menu__li:hover{
+    color: #D2386C;
+}
+.menu__li--active{
+    color:#D2386C;
+}//end menu nav -------------------------------------------------------------------------------------
+.image{ //imagenes primera seccion index --------------------------------------------------------
+    max-width: 200px;
+    max-height: 200px;
+}
+.imagen{//imagenes segunda seccion index
+    width: 150px;
+    height: 150px;
+}
+.escalaFotos:hover{ //aplico transformaciones---------------------------------------------
+    transform: scale(1.025);
+}
+#resalta{// aplico transiciones-----------------------------------------
+    animation-name: text;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+#fondoAnimado{//barrita de loading simulada -----------------------------------------------------------
+    height: 8px;
+    background-image:linear-gradient(90deg, white 90%,goldenrod);
+    animation-name: anima;
+    animation-iteration-count: 1;
+    animation-duration: 10s;
+}
+#fondoPrinc{ //imagen de fondo del h1
+    background-image: url("https://images.unsplash.com/photo-1626383446531-a9daa73eec48?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1174&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:200px;
+}
+#fondoSec{//separador de secciones index
+    background-image: url(https://image.freepik.com/vector-gratis/patron-panal-miel_225004-641.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75px;
+}
+#whatsapp{ //icono whatsapp contacto
+    position:absolute;
+    top: 110px;
+    right: 10px;
+    :hover{
+        transform: scale(1.5);
+    }
+}
+$porc: "%";
+$colores:(  //aplico mapas----------------------------------------------------------------------
+    0%:   yellow,
+    25%:  red,
+    50%:  blue,
+    100%: black,
+);
+@keyframes anima{
+    @for $i from 0 to 101{  //aplico for---------------------------------------------------------
+            #{$i}#{$porc} {
+                @if $i < 90{// aplico if---------------------------------------------------------
+                    background-image:linear-gradient(90deg, white #{$i}#{$porc},goldenrod);
+                }
+                @else {
+                    background-image:linear-gradient(90deg, white 90%,goldenrod);
+                }
+            }
+    }
+}
+@keyframes text{ 
+    @each $porcentaje, $color in $colores {  //aplico each-------------------------------------
+        #{$porcentaje} {color: #{$color}
+        }
+    }
+}
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 1024px){ 
+    #fondoSec{
+        height: 145px;
+        }
+    }
+
+/* Desktop */
+@media (min-width: 1025px){
+    #fondoSec{
+        height: 215px;
+        }
+    }

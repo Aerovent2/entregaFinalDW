@@ -17,7 +17,7 @@ footer div div {
   font-size: 12px; }
 
 .menu {
-  background-color: palegoldenrod; }
+  background: linear-gradient(90deg, #ece6ac, #baae2c); }
   .menu .navbar-toggler-icon {
     background-image: url(../img/menu.png); }
 
@@ -55,17 +55,20 @@ footer div div {
   animation-iteration-count: 1;
   animation-duration: 10s; }
 
-#fondoPrinc {
-  background-image: url("https://images.unsplash.com/photo-1626383446531-a9daa73eec48?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1174&q=80");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 200px; }
+#olitas {
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0; }
+  #olitas svg {
+    min-height: 500px; }
 
-#fondoSec {
-  background-image: url(https://image.freepik.com/vector-gratis/patron-panal-miel_225004-641.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 75px; }
+#mainIndex {
+  min-height: 100vh;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  z-index: 1; }
 
 #whatsapp {
   position: absolute;
@@ -288,12 +291,8 @@ footer div div {
   100% {
     color: black; } }
 
-/* Tablet */
-@media (min-width: 600px) and (max-width: 1024px) {
-  #fondoSec {
-    height: 145px; } }
-
 /* Desktop */
 @media (min-width: 1025px) {
-  #fondoSec {
-    height: 215px; } }
+  #olitas svg {
+    transform: translateY(-200px);
+    /*hace que no se superponga con la imagen*/ } }

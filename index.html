@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="MIEL, APICULTURA, ABEJAS"><!--SEO-->
     <title>Cooperativa Apicola La Colmena</title><!--SEO-->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon"><!--Icono pestaña-->
     <meta name="description" content="Sitio no oficial de la Coop Apicola de Nogoyá"><!--SEO-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><!--link a BS-->
     <link rel="stylesheet" href="css/estilos.css"><!--link a estilos css-->
@@ -42,70 +43,129 @@
     </header>
 
     <main >
-        <div id="fondoAnimado"></div>
-        <div  class="position-relative" id="fondoPrinc">
-            <h1 class=" fw-bold position-absolute top-50 start-50 text-center translate-middle text-white">Cooperativa Apícola <br> "La Colmena"</h1>
+        <div id="olitas" >
+            <svg id="svg-background" class="position-absolute" viewBox="0 0 1920 880">
+                <g>
+                    <linearGradient id="svg-gradient" x1="0" x2="1" y1="0" y2="0">
+                    <stop stop-color="hsl(55, 62%, 80%)" offset="0"></stop>
+                    <stop stop-color="hsl(55, 62%, 45.1%)" offset="1"></stop>
+                    </linearGradient>
+                    <path d="" fill="url(#svg-gradient)" opacity="0.4">
+                    <animate
+                            attributeName="d"
+                            dur="33s"
+                            repeatCount="indefinite"
+                            values="M0 0L 0 804.2328934685746Q 320 597.3613372284876  640 571.0708916590191T 1280 512.0661063245175T 1920 301.8788007488083L 1920 0 Z;M0 0L 0 877.6839081951588Q 320 668.0720922803877  640 649.0018928349388T 1280 328.7087077664202T 1920 162.95038242563396L 1920 0 Z;M0 0L 0 724.9886210051687Q 320 661.4364572061575  640 623.2173947479624T 1280 359.20353038907734T 1920 135.51673041732283L 1920 0 Z;M0 0L 0 804.2328934685746Q 320 597.3613372284876  640 571.0708916590191T 1280 512.0661063245175T 1920 301.8788007488083L 1920 0 Z"
+                    ></animate>
+                    </path>
+                    <path d="" fill="url(#svg-gradient)" opacity="0.4">
+                    <animate
+                             attributeName="d"
+                             dur="33s"
+                             repeatCount="indefinite"
+                             values="M0 0L 0 765.7607191473613Q 320 641.7853945676919  640 624.2534689988059T 1280 365.27264408032966T 1920 190.38947978522663L 1920 0 Z;M0 0L 0 842.1984196370487Q 320 570.6690721707517  640 540.6844954979398T 1280 439.92879442880593T 1920 200.29713960445451L 1920 0 Z;M0 0L 0 796.6802345094818Q 320 721.9216894353016  640 696.8815669355181T 1280 373.6367381440213T 1920 196.63169821789495L 1920 0 Z;M0 0L 0 765.7607191473613Q 320 641.7853945676919  640 624.2534689988059T 1280 365.27264408032966T 1920 190.38947978522663L 1920 0 Z"
+                             ></animate>
+                  </path>
+                  <path d="" fill="url(#svg-gradient)" opacity="0.4">
+                    <animate
+                             attributeName="d"
+                             dur="33s"
+                             repeatCount="indefinite"
+                             values="M0 0L 0 801.7562714943509Q 320 634.0247183381232  640 605.7090791951217T 1280 503.9393370140325T 1920 224.7551247480177L 1920 0 Z;M0 0L 0 821.0401780336218Q 320 670.8690783540507  640 637.0744123031742T 1280 456.40745286432224T 1920 278.1294357804296L 1920 0 Z;M0 0L 0 744.0534225112256Q 320 637.6425395409125  640 593.2079605185819T 1280 457.03995196824286T 1920 254.87693899994804L 1920 0 Z;M0 0L 0 801.7562714943509Q 320 634.0247183381232  640 605.7090791951217T 1280 503.9393370140325T 1920 224.7551247480177L 1920 0 Z"
+                             ></animate>
+                  </path>
+                  <path d="" fill="url(#svg-gradient)" opacity="0.4">
+                    <animate
+                             attributeName="d"
+                             dur="33s"
+                             repeatCount="indefinite"
+                             values="M0 0L 0 817.8603658675457Q 320 592.9404308081629  640 559.1126621853513T 1280 428.9912604821798T 1920 209.017381620229L 1920 0 Z;M0 0L 0 802.0504889976935Q 320 561.3963273210122  640 537.6024084387631T 1280 430.41283267566695T 1920 256.1972069733954L 1920 0 Z;M0 0L 0 789.4448177495887Q 320 561.9675446430498  640 531.6192318019404T 1280 414.76018143244175T 1920 265.9163329632971L 1920 0 Z;M0 0L 0 817.8603658675457Q 320 592.9404308081629  640 559.1126621853513T 1280 428.9912604821798T 1920 209.017381620229L 1920 0 Z"
+                             ></animate>
+                  </path>
+                  <path d="" fill="url(#svg-gradient)" opacity="0.4">
+                    <animate
+                             attributeName="d"
+                             dur="33s"
+                             repeatCount="indefinite"
+                             values="M0 0L 0 844.0541574423102Q 320 623.0697081316591  640 592.8483890737847T 1280 469.85448734523794T 1920 190.81850676853674L 1920 0 Z;M0 0L 0 871.4928294956283Q 320 618.9784567388518  640 593.1183717103518T 1280 376.5051942642811T 1920 141.32293927545027L 1920 0 Z;M0 0L 0 782.0118384610068Q 320 727.3267836497654  640 694.0476176759635T 1280 518.1545471640493T 1920 276.0053882957168L 1920 0 Z;M0 0L 0 844.0541574423102Q 320 623.0697081316591  640 592.8483890737847T 1280 469.85448734523794T 1920 190.81850676853674L 1920 0 Z"
+                             ></animate>
+                  </path>
+                </g>
+              </svg>
+              
         </div>
-        <section class="container"> <!--Primera seccion Index-->
-            <h2 class="fw-bold py-3">Producimos</h2>
-            <div class="col-12">
-                <div class="row">
-                    <div class="col-4 " >
-                        <article class="card border-0 text-center">
-                            <div > 
-                                <p> Miel</p>
-                            </div>
-                            <a href="views/productos.html"><img src="img/1miel.png" alt="miel" class="card-img-top rounded-circle escalaFotos image"></a>
-                        </article>
-                    </div>
-                    <div class="col-4" >
-                        <article class="card border-0 text-center ">
-                            <div > 
-                                <p> Polen</p>
-                            </div>
-                            <a href="views/productos.html"><img src="img/1polen.png" alt="granos de polen" class="card-img-top rounded-circle escalaFotos image"></a>
-                        </article>
-                    </div>
-                    <div class="col-4 " >
-                        <article class="card border-0 text-center">
-                            <div > 
-                                <p>Propóleo</p>
-                            </div>
-                            <a href="views/productos.html"><img src="img/1propoleo.png" alt="propoleo en bruto" class="card-img-top rounded-circle escalaFotos image"></a>
-                        </article>
-                    </div>
+        <div id="mainIndex" class="container row">
+            <div class="col-12 col-md-8 ">
+                <h1 class="display-5 align-self-start pt-5">La Colmena</h1>
+                <h2 >Miel Pura y Natural</h2>
+                <p>Producimos y envasamos mieles de diversas floraciones entrerrianas de calidad exportacion</p>
+            </div>
+            <div class="col-12 col-md-4">
+                <div>
+                    <img src="img/miel.png" alt="miel">
                 </div>
             </div>
-        </section>
-        <div id="fondoSec"></div>
-        <section  class="container">   <!--Segunda Seccion del Index-->
-            <h2 class="py-3 fw-bold">Contamos con</h2> 
-            <div class="col-12"> 
-                <div class="row">
-                    <div class="col-lg-4" >
-                        <article class="card border-0 text-center">
-                            <img src="http://orangecodecol.com/appi/images/incio.2.jpg" alt="apicultores" class="imagen d-block mx-auto mb-4">
-                            <p> Somos 47 socios</p>
-                        </article>
-                    </div>
-                    <div class="col-lg-4" >
-                        <article class="card border-0  text-center">
-                            <img src="https://media.istockphoto.com/vectors/honey-hive-with-bees-hanging-on-a-branch-flat-isolated-vector-id1020158634?k=20&m=1020158634&s=612x612&w=0&h=FStJByabHSGtpsnE-PaRLM0DWpdn_P_fmKLpqcdbr0w=" alt="colmena" class="imagen d-block mx-auto mb-4">
-                            <p> Más de 10.000 colmenas <br>en apiarios propios</p>
-                        </article>
-                    </div>
-                    <div class="col-lg-4 " >
-                        <article class="card border-0 text-center">
-                            <img src="https://static.vecteezy.com/system/resources/previews/002/623/495/non_2x/cartoon-cute-bee-carrying-fresh-honey-pot-vector.jpg" alt="abeja con pote" class="imagen d-block mx-auto mb-4">
-                            <p> Más de 1.500 <br> kilos anuales</p>
-                        </article>
+            <div class="col-12 container">
+                <h2 class="fw-bold py-3">Producimos</h2>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-4 " >
+                            <article class="card border-0 text-center">
+                                <div > 
+                                    <p> Miel</p>
+                                </div>
+                                <a href="views/productos.html"><img src="img/1miel.png" alt="miel" class="card-img-top rounded-circle escalaFotos image"></a>
+                            </article>
+                        </div>
+                        <div class="col-4" >
+                            <article class="card border-0 text-center ">
+                                <div > 
+                                    <p> Polen</p>
+                                </div>
+                                <a href="views/productos.html"><img src="img/1polen.png" alt="granos de polen" class="card-img-top rounded-circle escalaFotos image"></a>
+                            </article>
+                        </div>
+                        <div class="col-4 " >
+                            <article class="card border-0 text-center">
+                                <div > 
+                                    <p>Propóleo</p>
+                                </div>
+                                <a href="views/productos.html"><img src="img/1propoleo.png" alt="propoleo en bruto" class="card-img-top rounded-circle escalaFotos image"></a>
+                            </article>
+                        </div>
                     </div>
                 </div>
+
+                <h2 class="py-3 fw-bold">Contamos con</h2> 
+                <div class="col-12"> 
+                    <div class="row">
+                        <div class="col-lg-4" >
+                            <article class=" text-center">
+                                <img src="http://orangecodecol.com/appi/images/incio.2.jpg" alt="apicultores" class="imagen d-block mx-auto mb-4">
+                                <p> Somos 47 socios</p>
+                            </article>
+                        </div>
+                        <div class="col-lg-4" >
+                            <article class=" text-center">
+                                <img src="https://media.istockphoto.com/vectors/honey-hive-with-bees-hanging-on-a-branch-flat-isolated-vector-id1020158634?k=20&m=1020158634&s=612x612&w=0&h=FStJByabHSGtpsnE-PaRLM0DWpdn_P_fmKLpqcdbr0w=" alt="colmena" class="imagen d-block mx-auto mb-4">
+                                <p> Más de 10.000 colmenas <br>en apiarios propios</p>
+                            </article>
+                        </div>
+                        <div class="col-lg-4 " >
+                            <article class=" text-center">
+                                <img src="https://static.vecteezy.com/system/resources/previews/002/623/495/non_2x/cartoon-cute-bee-carrying-fresh-honey-pot-vector.jpg" alt="abeja con pote" class="imagen d-block mx-auto mb-4">
+                                <p> Más de 1.500 <br> kilos anuales</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
-        </section>
+        </div>
+        
     </main>
     
-    <footer class="pt-auto"> <!---------------------Footer--------------->
+    <footer> <!---------------------Footer--------------->
         <div class="row bg-dark">
             <div class=" col-8 text-white ">   
                 <ul class="list-unstyled my-3">

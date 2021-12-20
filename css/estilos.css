@@ -24,7 +24,7 @@ footer div div {
 .menu__li {
   font-size: 20px;
   font-weight: bolder;
-  color: #FDAC53; }
+  color: coral; }
 
 .menu__li:hover {
   color: #D2386C; }
@@ -43,6 +43,12 @@ footer div div {
 .escalaFotos:hover {
   transform: scale(1.025); }
 
+.izq {
+  margin: auto; }
+
+.der {
+  margin: auto; }
+
 #resalta {
   animation-name: text;
   animation-iteration-count: infinite;
@@ -50,7 +56,7 @@ footer div div {
 
 #fondoAnimado {
   height: 8px;
-  background-image: linear-gradient(90deg, white 90%, goldenrod);
+  background-image: linear-gradient(90deg, white 90%, #baae2c);
   animation-name: anima;
   animation-iteration-count: 1;
   animation-duration: 10s; }
@@ -79,207 +85,207 @@ footer div div {
 
 @keyframes anima {
   0% {
-    background-image: linear-gradient(90deg, white 0%, goldenrod); }
+    background-image: linear-gradient(90deg, white 0%, #baae2c); }
   1% {
-    background-image: linear-gradient(90deg, white 1%, goldenrod); }
+    background-image: linear-gradient(90deg, white 1%, #baae2c); }
   2% {
-    background-image: linear-gradient(90deg, white 2%, goldenrod); }
+    background-image: linear-gradient(90deg, white 2%, #baae2c); }
   3% {
-    background-image: linear-gradient(90deg, white 3%, goldenrod); }
+    background-image: linear-gradient(90deg, white 3%, #baae2c); }
   4% {
-    background-image: linear-gradient(90deg, white 4%, goldenrod); }
+    background-image: linear-gradient(90deg, white 4%, #baae2c); }
   5% {
-    background-image: linear-gradient(90deg, white 5%, goldenrod); }
+    background-image: linear-gradient(90deg, white 5%, #baae2c); }
   6% {
-    background-image: linear-gradient(90deg, white 6%, goldenrod); }
+    background-image: linear-gradient(90deg, white 6%, #baae2c); }
   7% {
-    background-image: linear-gradient(90deg, white 7%, goldenrod); }
+    background-image: linear-gradient(90deg, white 7%, #baae2c); }
   8% {
-    background-image: linear-gradient(90deg, white 8%, goldenrod); }
+    background-image: linear-gradient(90deg, white 8%, #baae2c); }
   9% {
-    background-image: linear-gradient(90deg, white 9%, goldenrod); }
+    background-image: linear-gradient(90deg, white 9%, #baae2c); }
   10% {
-    background-image: linear-gradient(90deg, white 10%, goldenrod); }
+    background-image: linear-gradient(90deg, white 10%, #baae2c); }
   11% {
-    background-image: linear-gradient(90deg, white 11%, goldenrod); }
+    background-image: linear-gradient(90deg, white 11%, #baae2c); }
   12% {
-    background-image: linear-gradient(90deg, white 12%, goldenrod); }
+    background-image: linear-gradient(90deg, white 12%, #baae2c); }
   13% {
-    background-image: linear-gradient(90deg, white 13%, goldenrod); }
+    background-image: linear-gradient(90deg, white 13%, #baae2c); }
   14% {
-    background-image: linear-gradient(90deg, white 14%, goldenrod); }
+    background-image: linear-gradient(90deg, white 14%, #baae2c); }
   15% {
-    background-image: linear-gradient(90deg, white 15%, goldenrod); }
+    background-image: linear-gradient(90deg, white 15%, #baae2c); }
   16% {
-    background-image: linear-gradient(90deg, white 16%, goldenrod); }
+    background-image: linear-gradient(90deg, white 16%, #baae2c); }
   17% {
-    background-image: linear-gradient(90deg, white 17%, goldenrod); }
+    background-image: linear-gradient(90deg, white 17%, #baae2c); }
   18% {
-    background-image: linear-gradient(90deg, white 18%, goldenrod); }
+    background-image: linear-gradient(90deg, white 18%, #baae2c); }
   19% {
-    background-image: linear-gradient(90deg, white 19%, goldenrod); }
+    background-image: linear-gradient(90deg, white 19%, #baae2c); }
   20% {
-    background-image: linear-gradient(90deg, white 20%, goldenrod); }
+    background-image: linear-gradient(90deg, white 20%, #baae2c); }
   21% {
-    background-image: linear-gradient(90deg, white 21%, goldenrod); }
+    background-image: linear-gradient(90deg, white 21%, #baae2c); }
   22% {
-    background-image: linear-gradient(90deg, white 22%, goldenrod); }
+    background-image: linear-gradient(90deg, white 22%, #baae2c); }
   23% {
-    background-image: linear-gradient(90deg, white 23%, goldenrod); }
+    background-image: linear-gradient(90deg, white 23%, #baae2c); }
   24% {
-    background-image: linear-gradient(90deg, white 24%, goldenrod); }
+    background-image: linear-gradient(90deg, white 24%, #baae2c); }
   25% {
-    background-image: linear-gradient(90deg, white 25%, goldenrod); }
+    background-image: linear-gradient(90deg, white 25%, #baae2c); }
   26% {
-    background-image: linear-gradient(90deg, white 26%, goldenrod); }
+    background-image: linear-gradient(90deg, white 26%, #baae2c); }
   27% {
-    background-image: linear-gradient(90deg, white 27%, goldenrod); }
+    background-image: linear-gradient(90deg, white 27%, #baae2c); }
   28% {
-    background-image: linear-gradient(90deg, white 28%, goldenrod); }
+    background-image: linear-gradient(90deg, white 28%, #baae2c); }
   29% {
-    background-image: linear-gradient(90deg, white 29%, goldenrod); }
+    background-image: linear-gradient(90deg, white 29%, #baae2c); }
   30% {
-    background-image: linear-gradient(90deg, white 30%, goldenrod); }
+    background-image: linear-gradient(90deg, white 30%, #baae2c); }
   31% {
-    background-image: linear-gradient(90deg, white 31%, goldenrod); }
+    background-image: linear-gradient(90deg, white 31%, #baae2c); }
   32% {
-    background-image: linear-gradient(90deg, white 32%, goldenrod); }
+    background-image: linear-gradient(90deg, white 32%, #baae2c); }
   33% {
-    background-image: linear-gradient(90deg, white 33%, goldenrod); }
+    background-image: linear-gradient(90deg, white 33%, #baae2c); }
   34% {
-    background-image: linear-gradient(90deg, white 34%, goldenrod); }
+    background-image: linear-gradient(90deg, white 34%, #baae2c); }
   35% {
-    background-image: linear-gradient(90deg, white 35%, goldenrod); }
+    background-image: linear-gradient(90deg, white 35%, #baae2c); }
   36% {
-    background-image: linear-gradient(90deg, white 36%, goldenrod); }
+    background-image: linear-gradient(90deg, white 36%, #baae2c); }
   37% {
-    background-image: linear-gradient(90deg, white 37%, goldenrod); }
+    background-image: linear-gradient(90deg, white 37%, #baae2c); }
   38% {
-    background-image: linear-gradient(90deg, white 38%, goldenrod); }
+    background-image: linear-gradient(90deg, white 38%, #baae2c); }
   39% {
-    background-image: linear-gradient(90deg, white 39%, goldenrod); }
+    background-image: linear-gradient(90deg, white 39%, #baae2c); }
   40% {
-    background-image: linear-gradient(90deg, white 40%, goldenrod); }
+    background-image: linear-gradient(90deg, white 40%, #baae2c); }
   41% {
-    background-image: linear-gradient(90deg, white 41%, goldenrod); }
+    background-image: linear-gradient(90deg, white 41%, #baae2c); }
   42% {
-    background-image: linear-gradient(90deg, white 42%, goldenrod); }
+    background-image: linear-gradient(90deg, white 42%, #baae2c); }
   43% {
-    background-image: linear-gradient(90deg, white 43%, goldenrod); }
+    background-image: linear-gradient(90deg, white 43%, #baae2c); }
   44% {
-    background-image: linear-gradient(90deg, white 44%, goldenrod); }
+    background-image: linear-gradient(90deg, white 44%, #baae2c); }
   45% {
-    background-image: linear-gradient(90deg, white 45%, goldenrod); }
+    background-image: linear-gradient(90deg, white 45%, #baae2c); }
   46% {
-    background-image: linear-gradient(90deg, white 46%, goldenrod); }
+    background-image: linear-gradient(90deg, white 46%, #baae2c); }
   47% {
-    background-image: linear-gradient(90deg, white 47%, goldenrod); }
+    background-image: linear-gradient(90deg, white 47%, #baae2c); }
   48% {
-    background-image: linear-gradient(90deg, white 48%, goldenrod); }
+    background-image: linear-gradient(90deg, white 48%, #baae2c); }
   49% {
-    background-image: linear-gradient(90deg, white 49%, goldenrod); }
+    background-image: linear-gradient(90deg, white 49%, #baae2c); }
   50% {
-    background-image: linear-gradient(90deg, white 50%, goldenrod); }
+    background-image: linear-gradient(90deg, white 50%, #baae2c); }
   51% {
-    background-image: linear-gradient(90deg, white 51%, goldenrod); }
+    background-image: linear-gradient(90deg, white 51%, #baae2c); }
   52% {
-    background-image: linear-gradient(90deg, white 52%, goldenrod); }
+    background-image: linear-gradient(90deg, white 52%, #baae2c); }
   53% {
-    background-image: linear-gradient(90deg, white 53%, goldenrod); }
+    background-image: linear-gradient(90deg, white 53%, #baae2c); }
   54% {
-    background-image: linear-gradient(90deg, white 54%, goldenrod); }
+    background-image: linear-gradient(90deg, white 54%, #baae2c); }
   55% {
-    background-image: linear-gradient(90deg, white 55%, goldenrod); }
+    background-image: linear-gradient(90deg, white 55%, #baae2c); }
   56% {
-    background-image: linear-gradient(90deg, white 56%, goldenrod); }
+    background-image: linear-gradient(90deg, white 56%, #baae2c); }
   57% {
-    background-image: linear-gradient(90deg, white 57%, goldenrod); }
+    background-image: linear-gradient(90deg, white 57%, #baae2c); }
   58% {
-    background-image: linear-gradient(90deg, white 58%, goldenrod); }
+    background-image: linear-gradient(90deg, white 58%, #baae2c); }
   59% {
-    background-image: linear-gradient(90deg, white 59%, goldenrod); }
+    background-image: linear-gradient(90deg, white 59%, #baae2c); }
   60% {
-    background-image: linear-gradient(90deg, white 60%, goldenrod); }
+    background-image: linear-gradient(90deg, white 60%, #baae2c); }
   61% {
-    background-image: linear-gradient(90deg, white 61%, goldenrod); }
+    background-image: linear-gradient(90deg, white 61%, #baae2c); }
   62% {
-    background-image: linear-gradient(90deg, white 62%, goldenrod); }
+    background-image: linear-gradient(90deg, white 62%, #baae2c); }
   63% {
-    background-image: linear-gradient(90deg, white 63%, goldenrod); }
+    background-image: linear-gradient(90deg, white 63%, #baae2c); }
   64% {
-    background-image: linear-gradient(90deg, white 64%, goldenrod); }
+    background-image: linear-gradient(90deg, white 64%, #baae2c); }
   65% {
-    background-image: linear-gradient(90deg, white 65%, goldenrod); }
+    background-image: linear-gradient(90deg, white 65%, #baae2c); }
   66% {
-    background-image: linear-gradient(90deg, white 66%, goldenrod); }
+    background-image: linear-gradient(90deg, white 66%, #baae2c); }
   67% {
-    background-image: linear-gradient(90deg, white 67%, goldenrod); }
+    background-image: linear-gradient(90deg, white 67%, #baae2c); }
   68% {
-    background-image: linear-gradient(90deg, white 68%, goldenrod); }
+    background-image: linear-gradient(90deg, white 68%, #baae2c); }
   69% {
-    background-image: linear-gradient(90deg, white 69%, goldenrod); }
+    background-image: linear-gradient(90deg, white 69%, #baae2c); }
   70% {
-    background-image: linear-gradient(90deg, white 70%, goldenrod); }
+    background-image: linear-gradient(90deg, white 70%, #baae2c); }
   71% {
-    background-image: linear-gradient(90deg, white 71%, goldenrod); }
+    background-image: linear-gradient(90deg, white 71%, #baae2c); }
   72% {
-    background-image: linear-gradient(90deg, white 72%, goldenrod); }
+    background-image: linear-gradient(90deg, white 72%, #baae2c); }
   73% {
-    background-image: linear-gradient(90deg, white 73%, goldenrod); }
+    background-image: linear-gradient(90deg, white 73%, #baae2c); }
   74% {
-    background-image: linear-gradient(90deg, white 74%, goldenrod); }
+    background-image: linear-gradient(90deg, white 74%, #baae2c); }
   75% {
-    background-image: linear-gradient(90deg, white 75%, goldenrod); }
+    background-image: linear-gradient(90deg, white 75%, #baae2c); }
   76% {
-    background-image: linear-gradient(90deg, white 76%, goldenrod); }
+    background-image: linear-gradient(90deg, white 76%, #baae2c); }
   77% {
-    background-image: linear-gradient(90deg, white 77%, goldenrod); }
+    background-image: linear-gradient(90deg, white 77%, #baae2c); }
   78% {
-    background-image: linear-gradient(90deg, white 78%, goldenrod); }
+    background-image: linear-gradient(90deg, white 78%, #baae2c); }
   79% {
-    background-image: linear-gradient(90deg, white 79%, goldenrod); }
+    background-image: linear-gradient(90deg, white 79%, #baae2c); }
   80% {
-    background-image: linear-gradient(90deg, white 80%, goldenrod); }
+    background-image: linear-gradient(90deg, white 80%, #baae2c); }
   81% {
-    background-image: linear-gradient(90deg, white 81%, goldenrod); }
+    background-image: linear-gradient(90deg, white 81%, #baae2c); }
   82% {
-    background-image: linear-gradient(90deg, white 82%, goldenrod); }
+    background-image: linear-gradient(90deg, white 82%, #baae2c); }
   83% {
-    background-image: linear-gradient(90deg, white 83%, goldenrod); }
+    background-image: linear-gradient(90deg, white 83%, #baae2c); }
   84% {
-    background-image: linear-gradient(90deg, white 84%, goldenrod); }
+    background-image: linear-gradient(90deg, white 84%, #baae2c); }
   85% {
-    background-image: linear-gradient(90deg, white 85%, goldenrod); }
+    background-image: linear-gradient(90deg, white 85%, #baae2c); }
   86% {
-    background-image: linear-gradient(90deg, white 86%, goldenrod); }
+    background-image: linear-gradient(90deg, white 86%, #baae2c); }
   87% {
-    background-image: linear-gradient(90deg, white 87%, goldenrod); }
+    background-image: linear-gradient(90deg, white 87%, #baae2c); }
   88% {
-    background-image: linear-gradient(90deg, white 88%, goldenrod); }
+    background-image: linear-gradient(90deg, white 88%, #baae2c); }
   89% {
-    background-image: linear-gradient(90deg, white 89%, goldenrod); }
+    background-image: linear-gradient(90deg, white 89%, #baae2c); }
   90% {
-    background-image: linear-gradient(90deg, white 90%, goldenrod); }
+    background-image: linear-gradient(90deg, white 90%, #baae2c); }
   91% {
-    background-image: linear-gradient(90deg, white 90%, goldenrod); }
+    background-image: linear-gradient(90deg, white 90%, #baae2c); }
   92% {
-    background-image: linear-gradient(90deg, white 90%, goldenrod); }
+    background-image: linear-gradient(90deg, white 90%, #baae2c); }
   93% {
-    background-image: linear-gradient(90deg, white 90%, goldenrod); }
+    background-image: linear-gradient(90deg, white 90%, #baae2c); }
   94% {
-    background-image: linear-gradient(90deg, white 90%, goldenrod); }
+    background-image: linear-gradient(90deg, white 90%, #baae2c); }
   95% {
-    background-image: linear-gradient(90deg, white 90%, goldenrod); }
+    background-image: linear-gradient(90deg, white 90%, #baae2c); }
   96% {
-    background-image: linear-gradient(90deg, white 90%, goldenrod); }
+    background-image: linear-gradient(90deg, white 90%, #baae2c); }
   97% {
-    background-image: linear-gradient(90deg, white 90%, goldenrod); }
+    background-image: linear-gradient(90deg, white 90%, #baae2c); }
   98% {
-    background-image: linear-gradient(90deg, white 90%, goldenrod); }
+    background-image: linear-gradient(90deg, white 90%, #baae2c); }
   99% {
-    background-image: linear-gradient(90deg, white 90%, goldenrod); }
+    background-image: linear-gradient(90deg, white 90%, #baae2c); }
   100% {
-    background-image: linear-gradient(90deg, white 90%, goldenrod); } }
+    background-image: linear-gradient(90deg, white 90%, #baae2c); } }
 
 @keyframes text {
   0% {
@@ -291,8 +297,24 @@ footer div div {
   100% {
     color: black; } }
 
+/* tablet */
+@media (min-width: 600px) and (max-width: 1024px) {
+  #olitas svg {
+    transform: translateY(-100px);
+    /*hace que no se superponga con la imagen*/ }
+  .izq {
+    margin: auto auto auto 0; }
+  .der {
+    padding: auto 0 auto auto;
+    margin: auto 0 auto auto; } }
+
 /* Desktop */
 @media (min-width: 1025px) {
   #olitas svg {
     transform: translateY(-200px);
-    /*hace que no se superponga con la imagen*/ } }
+    /*hace que no se superponga con la imagen*/ }
+  .izq {
+    margin: auto auto auto 0; }
+  .der {
+    padding: auto 0 auto auto;
+    margin: auto 0 auto auto; } }

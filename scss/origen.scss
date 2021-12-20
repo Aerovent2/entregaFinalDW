@@ -29,7 +29,7 @@ footer{
 .menu__li{
     font-size: $fuenteS /3;
     font-weight: bolder;
-    color:#FDAC53;
+    color:coral;
 }
 .menu__li:hover{
     color: #D2386C;
@@ -48,6 +48,12 @@ footer{
 .escalaFotos:hover{ //aplico transformaciones---------------------------------------------
     transform: scale(1.025);
 }
+.izq{
+    margin: auto;
+}
+.der{
+    margin: auto;
+}
 #resalta{// aplico transiciones-----------------------------------------
     animation-name: text;
     animation-iteration-count: infinite;
@@ -55,12 +61,12 @@ footer{
 }
 #fondoAnimado{//barrita de loading simulada -----------------------------------------------------------
     height: 8px;
-    background-image:linear-gradient(90deg, white 90%,goldenrod);
+    background-image:linear-gradient(90deg, white 90%,hsl(55, 62%, 45.1%));
     animation-name: anima;
     animation-iteration-count: 1;
     animation-duration: 10s;
 }
-#olitas{
+#olitas{//efecto fondo index -----
     width: 100%;
     z-index: -1;
     position: absolute;
@@ -96,10 +102,10 @@ $colores:(  //aplico mapas------------------------------------------------------
     @for $i from 0 to 101{  //aplico for---------------------------------------------------------
             #{$i}#{$porc} {
                 @if $i < 90{// aplico if---------------------------------------------------------
-                    background-image:linear-gradient(90deg, white #{$i}#{$porc},goldenrod);
+                    background-image:linear-gradient(90deg, white #{$i}#{$porc},hsl(55, 62%, 45.1%));
                 }
                 @else {
-                    background-image:linear-gradient(90deg, white 90%,goldenrod);
+                    background-image:linear-gradient(90deg, white 90%,hsl(55, 62%, 45.1%));
                 }
             }
     }
@@ -111,7 +117,21 @@ $colores:(  //aplico mapas------------------------------------------------------
     }
 }
 
-
+/* tablet */
+@media (min-width: 600px) and (max-width: 1024px){
+    #olitas{
+        svg{ 
+        transform: translateY(-100px); /*hace que no se superponga con la imagen*/
+        }
+    }
+    .izq{
+        margin: auto auto auto 0;
+    }
+    .der{
+        padding:  auto 0 auto auto;
+        margin: auto 0 auto auto;
+    }
+}
 
 /* Desktop */
 @media (min-width: 1025px){
@@ -119,5 +139,12 @@ $colores:(  //aplico mapas------------------------------------------------------
         svg{ 
         transform: translateY(-200px); /*hace que no se superponga con la imagen*/
         }
+    }
+    .izq{
+        margin: auto auto auto 0;
+    }
+    .der{
+        padding:  auto 0 auto auto;
+        margin: auto 0 auto auto;
     }
 }

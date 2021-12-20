@@ -1,5 +1,9 @@
 # entregaFinalDW
 
-pedacitos de codigo 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+-es un sitio hecho solo para para el curso de Desarrollo Web. La mayoria de los datos son ficticios.
+
+-el efecto animado del index lo copie de otro sitio y le modifique el tamaño y los colores .
+
+-las fotos del carrousel provienen de facebook (los links expiran despues de unos dias ).
+
+-escaso de contenido pero traté de aplicar las diversas cosas vistas en clase (menos grid que lo resolvi con BS)

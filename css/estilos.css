@@ -314,7 +314,7 @@ footer div div {
   #olitas {
     height: 900px; }
     #olitas svg {
-      transform: translateY(-200px);
+      transform: translateY(-300px);
       /*hace que no se superponga con la imagen*/ }
   .izq {
     margin: auto auto auto 0; }

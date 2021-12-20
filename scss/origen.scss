@@ -54,6 +54,14 @@ footer{
 .der{
     margin: auto;
 }
+
+#olitas{//div que contiene  la animacion -----------------------------
+    overflow: hidden;
+    height:30vh;
+    width: 100%; 
+    z-index: -10;
+    position: absolute;
+}
 #resalta{// aplico transiciones-----------------------------------------
     animation-name: text;
     animation-iteration-count: infinite;
@@ -66,16 +74,8 @@ footer{
     animation-iteration-count: 1;
     animation-duration: 10s;
 }
-#olitas{//efecto fondo index -----
-    width: 100%;
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    svg{
-        min-height: 500px;
-    }
-}
-#mainIndex{
+
+#mainIndex{ 
     min-height: 100vh;
     width: 90%;
     max-width: 1200px;
@@ -120,10 +120,12 @@ $colores:(  //aplico mapas------------------------------------------------------
 /* tablet */
 @media (min-width: 600px) and (max-width: 1024px){
     #olitas{
+        height: 400px;
         svg{ 
         transform: translateY(-100px); /*hace que no se superponga con la imagen*/
         }
     }
+
     .izq{
         margin: auto auto auto 0;
     }
@@ -136,10 +138,12 @@ $colores:(  //aplico mapas------------------------------------------------------
 /* Desktop */
 @media (min-width: 1025px){
     #olitas{
+        height: 900px;
         svg{ 
         transform: translateY(-200px); /*hace que no se superponga con la imagen*/
         }
     }
+
     .izq{
         margin: auto auto auto 0;
     }

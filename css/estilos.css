@@ -49,6 +49,13 @@ footer div div {
 .der {
   margin: auto; }
 
+#olitas {
+  overflow: hidden;
+  height: 30vh;
+  width: 100%;
+  z-index: -10;
+  position: absolute; }
+
 #resalta {
   animation-name: text;
   animation-iteration-count: infinite;
@@ -60,14 +67,6 @@ footer div div {
   animation-name: anima;
   animation-iteration-count: 1;
   animation-duration: 10s; }
-
-#olitas {
-  width: 100%;
-  z-index: -1;
-  position: absolute;
-  top: 0; }
-  #olitas svg {
-    min-height: 500px; }
 
 #mainIndex {
   min-height: 100vh;
@@ -299,9 +298,11 @@ footer div div {
 
 /* tablet */
 @media (min-width: 600px) and (max-width: 1024px) {
-  #olitas svg {
-    transform: translateY(-100px);
-    /*hace que no se superponga con la imagen*/ }
+  #olitas {
+    height: 400px; }
+    #olitas svg {
+      transform: translateY(-100px);
+      /*hace que no se superponga con la imagen*/ }
   .izq {
     margin: auto auto auto 0; }
   .der {
@@ -310,9 +311,11 @@ footer div div {
 
 /* Desktop */
 @media (min-width: 1025px) {
-  #olitas svg {
-    transform: translateY(-200px);
-    /*hace que no se superponga con la imagen*/ }
+  #olitas {
+    height: 900px; }
+    #olitas svg {
+      transform: translateY(-200px);
+      /*hace que no se superponga con la imagen*/ }
   .izq {
     margin: auto auto auto 0; }
   .der {
